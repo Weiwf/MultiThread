@@ -6,6 +6,11 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * @author weiwenfeng
  * @date 2018/12/6
+ *
+ * 读锁是“共享锁”，写锁是“排他锁”
+ *
+ * 获取读锁的前提：1.没有其他线程的写锁，2.没有其他线程的写请求，或，有写请求但调用线程和持有锁的线程是同一个
+ * 获取写锁的前提：1.没有其他线程的写锁，2.没有其他线程的读锁
  */
 public class ReentrantReadWriteLockTest {
     public static void main(String[] args) {
