@@ -10,6 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  * Object：synchronized + wait()/noitify()/noitifyAll()
  * Condiftion: Lock + await()/signal()/signalAll()
+ *
  */
 public class ConditionTest {
     public static void main(String[] args) {
