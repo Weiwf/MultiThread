@@ -1,4 +1,4 @@
-package com.wei.demo.multithread.lock.condition;
+package com.wei.demo.multithread.lock.condition.example1;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @date 2018/12/9
  *
  * Object：synchronized + wait()/noitify()/noitifyAll()
- * Condiftion: Lock + await()/signal()/signalAll()
+ * Condition: Lock + await()/signal()/signalAll()
  *
  */
 public class ConditionTest {
